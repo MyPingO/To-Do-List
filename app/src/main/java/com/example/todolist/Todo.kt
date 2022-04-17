@@ -1,4 +1,6 @@
 package com.example.todolist
 
-class Todo {
-}
+data class Todo (
+    val title: String,
+    var isChecked: Boolean = false
+)
